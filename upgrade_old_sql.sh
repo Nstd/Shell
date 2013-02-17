@@ -12,7 +12,7 @@ if [ $# != "2" ] || [ "$1" == "-h" ] || [ "$1" == "--help" ] ; then
 	echo "    2.所用file必须是mysqldump导出的file，且file中必须使用完整的建表语句"
 	echo "    3.所有使用MyISAM引擎的表会被强制更改为InnoDB引擎"
 	echo 
-	echo "Author: maoting"
+	echo "Author: Nstd"
 	echo "Version: 1.0"
 	echo 
 	exit 2
